@@ -1,0 +1,98 @@
+.container{
+    background-color: lightgray;
+}
+
+.grid-container {
+    display: flex;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.grid > div {
+    color: white;
+    width: 33%;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: column;
+    margin:5px 20px;
+}
+
+.buttons > button {
+    background-color: lightskyblue;
+    color: white;
+    margin-top:5px;
+}
+
+.class-1{
+    background-color: #2B8EAD;
+}
+.class-2{
+    background-color: #333333;
+}
+.class-3{
+    background-color: #9FAFEF;
+}
+.class-4{
+    background-color: #72C3DC;
+}
+.class-5{
+    background-color: #6F98A8;
+}
+.class-6{
+    background-color: #BFBFBF;
+}
+.class-7{
+    background-color: #2F454E;
+}
+.class-8{
+    background-color: #6B8EAD;
+}
+.class-9{
+    background-color: #4B8EAD;
+}
+
+@media screen and (max-width: 600px) {
+   .grid-container {
+       flex-direction: column-reverse;
+   }
+    
+   .grid > div {
+       width: 100%;
+       color: black;
+       background-color: lightgray;
+   }
+
+   .class-1{
+    border-left:10px solid #2B8EAD;
+}
+.class-2{
+    border-left:10px solid #333333;
+}
+.class-3{
+    border-left:10px solid #9FAFEF;
+}
+.class-4{
+    border-left:10px solid #72C3DC;
+}
+.class-5{
+    border-left:10px solid #6F98A8;
+}
+.class-6{
+    border-left:10px solid #BFBFBF;
+}
+.class-7{
+    border-left:10px solid #2F454E;
+}
+.class-8{
+    border-left:10px solid #6B8EAD;
+}
+.class-9{
+    border-left:10px solid #4B8EAD;
+}
+}
